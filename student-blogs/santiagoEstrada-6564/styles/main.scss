@@ -1,0 +1,34 @@
+@use "base.scss";
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500";
+
+$bunker:#0d1117;
+$Cutty_Sark: #566b78;
+$iron: #d3d5d8;
+$nobel:#b8b6b6;
+$seagull:#87ceeb;
+
+body {
+    background: $bunker;
+    color: $Cutty_Sark;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+header{
+    background-color: $bunker;
+}
+
+.nav-link{
+    color:$nobel;
+}
+
+.nav-item:hover .nav-link {
+    color: $iron;
+  }
+
+h1,
+h2,
+p,
+ul,
+table {
+    color: $nobel;
+}
