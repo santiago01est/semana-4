@@ -1,4 +1,5 @@
 @use "base.scss";
+@use "desktop.scss";
 @import "https://fonts.googleapis.com/css?family=Roboto:300,400,500";
 
 $bunker:#0d1117;
@@ -31,4 +32,8 @@ p,
 ul,
 table {
     color: $nobel;
+}
+
+a{
+    color: $seagull;
 }
