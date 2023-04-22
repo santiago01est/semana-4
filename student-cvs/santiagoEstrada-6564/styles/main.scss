@@ -1,0 +1,106 @@
+@use "base.scss";
+@use "desktop.scss";
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500";
+
+$Cutty_Sark: #566b78;
+$Bunker: #0d1117;
+$Nobel :#b8b6b6;
+$iron: #d3d5d8;
+$Seagull:#87ceeb;
+$Gray:#888888;
+$Purple_Heart:#7e22ce;
+$Heliotrope:#a855f7;
+$White:#FFF;
+$Black:#000;
+$Mine_Shaft: #333;
+$Humming_Bird:#c6f0f8;
+$Malibu: #5cb8f6;
+$Blue_Ribbon: #0666ff;
+
+body{
+color: $Cutty_Sark;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  background-color: $Bunker;
+}
+header{
+    background-color: $Bunker;
+}
+
+.nav-link {
+    color: $Nobel;
+}
+.nav-item:hover .nav-link {
+    color: $iron;
+  }
+
+  h1,
+  h2,
+  p,
+  ul,
+  table {
+    color: $Nobel;
+  }
+  
+  a {
+    color: $Seagull;
+  }
+
+  form {
+    background-color: $Bunker;
+    border: 1px solid $Nobel;
+    box-shadow: 0px 0px 3px $Gray;
+  }
+
+  input:focus-visible,
+  textarea:focus-visible {
+    border: 1px solid $Purple_Heart;
+    outline: 1px solid $Heliotrope;
+  }
+
+  label,
+  legend {
+    color: $Nobel;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    background-color: $White;
+    border: 1px solid $Black;
+    color: $Mine_Shaft;
+  }
+
+.help {
+    color: $Gray;
+  }
+
+select option {
+    background-color: $Humming_Bird;
+    color: $Black;
+  }
+
+  button.Boton {
+    background-image: linear-gradient(150deg, $Malibu, $Blue_Ribbon, $Seagull);
+    color: $Black;
+  }
+
+  button.Boton span {
+    background-color: $Seagull;
+  }
+
+  .content-select select {
+    background: $iron;
+    color: $Gray;
+    font-family: "Quicksand", sans-serif;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  .content-select select:hover {
+    background: $Humming_Bird;
+  }
+  .content-select i {
+    border-left: 4px solid $Humming_Bird;
+    border-bottom: 4px solid $Humming_Bird;
+  }
+  
